@@ -1,0 +1,83 @@
+/* الخط الأساسي */
+body {
+  font-family: 'Cairo', Arial, sans-serif;
+  background-color: #181818;
+  color: #f5f5f5;
+  direction: rtl;
+}
+
+/* ألوان الهوية */
+.gold {
+  color: #d4af37 !important;
+}
+.bg-gold {
+  background-color: #d4af37 !important;
+}
+.navbar, .footer {
+  background-color: #222 !important;
+}
+.section-title {
+  color: #d4af37;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* الهيرو */
+.hero {
+  background: url('../../assets/hero.jpg') center/cover no-repeat;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.hero .logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+/* البطاقات */
+.card {
+  background-color: #232323;
+  border: none;
+}
+.btn-gold {
+  background-color: #d4af37;
+  color: #181818;
+  font-weight: bold;
+  border: none;
+}
+.btn-gold:hover {
+  background-color: #bfa133;
+  color: #fff;
+}
+
+/* آراء العملاء */
+.review-card {
+  background-color: #232323;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+/* الفوتر */
+.footer {
+  color: #aaa;
+  padding: 2rem 0 1rem 0;
+  margin-top: 2rem;
+}
+
+/* روابط التواصل الاجتماعي */
+.footer a.gold {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer a.gold:hover {
+  color: #fff;
+}
+
+/* تحسينات عامة */
+ul.list-unstyled {
+  padding-right: 0;
+}
